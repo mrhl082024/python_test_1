@@ -17,3 +17,5 @@ print (my_age)
 #lagd en list som printer ut "banana"
 my_list = ["apple", "banana", "orange"]
 print (my_list[1])
+#printer ut hvor mange "ting" som er i listen
+print (len(my_list))
