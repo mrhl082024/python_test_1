@@ -33,3 +33,11 @@ print (new_list)
 new_list_1 = ["bmw", "volvo", "audi", "mercedez", "ford"]
 new_list_1[1:5] = ["car1", "car2"]
 print(new_list_1)
+
+#legge til en "ting" i listen uten å fjerne noe.
+new_list_2 =["bmw", "volvo", "audi"]
+new_list_2.insert(1, "mercedez")
+print(new_list_2)
+#legge til ting på slutten av listen.
+new_list_2.append("ford")
+print(new_list_2)
