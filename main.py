@@ -28,3 +28,8 @@ if "apple" in my_list:
 new_list = ["bmw", "volvo", "audi"]
 new_list[1] = "mercedez"
 print (new_list)
+
+#bytter ut alt fra posisjon 1 til 5 med "car1" "car2",
+new_list_1 = ["bmw", "volvo", "audi", "mercedez", "ford"]
+new_list_1[1:5] = ["car1", "car2"]
+print(new_list_1)
