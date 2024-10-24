@@ -41,3 +41,18 @@ print(new_list_2)
 #legge til ting på slutten av listen.
 new_list_2.append("ford")
 print(new_list_2)
+
+#liste sortert oppover og nedover.
+numeric_list = [1,5,7,6,9,8,4,3,2]
+numeric_list.sort(reverse =True)
+print(numeric_list)
+numeric_list.sort()
+print(numeric_list)
+
+
+def myfunc(n):
+    return abs(n - 50)
+
+list1 = [100,50,70,60,80,90]
+list1.sort(key=myfunc)
+print(list1)
